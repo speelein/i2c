@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "i2c",
-    "project_version":    "1",
+    "project_version":    "43a7483-dirty",
     "project_path":       "/mnt/nvme/SSD/Daten/Visual-Studio/C-6/i2c",
     "idf_path":           "/home/gunter/esp/v5.5-rc1/esp-idf",
     "build_dir":          "/mnt/nvme/SSD/Daten/Visual-Studio/C-6/i2c/build",
