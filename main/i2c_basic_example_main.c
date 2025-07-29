@@ -9,13 +9,28 @@
    as well as reading and writing from and to registers for a sensor connected over I2C.
 
    The sensor used in this example is a MPU9250 inertial measurement unit.
+
+
+   ...existing code...
+extern "C" {
+#include "driver/i2c_master.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+}
+ 
+...existing code...
+
+
+
 */
+
 #include <stdio.h>
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "esp_log.h"
 #include "driver/i2c_master.h"
+
 
 static const char *TAG = "example";
 
